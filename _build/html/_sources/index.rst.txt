@@ -14,8 +14,6 @@
    :maxdepth: 2
    :caption: Contents:
 
-   sample
-   sandbox01
    meetings/meeting19
    todo
    glossary

@@ -2,6 +2,8 @@
 輪読会 第19回
 ===========================================
 
+`ホワイトボード写真 <https://photos.google.com/share/AF1QipMEKO8vTwInzfRGYb87KNOiGU9cy8X7y7oSALIDbSAYR3N-3mJpSbucFrV115xm6Q?key=cWc5SlNTUWkyUHlDQmhXZXdQd0RzLW02TDFxNEJn>`_
+
 3.3 スケーリング (p. 67)
 
 補題 16
@@ -43,9 +45,10 @@
 
    \begin{align*}
    \mathbb{E}_w &= \left(w_0 + \frac{\hat{\xi}_n}{\sqrt{n}}\right)(1 + o_p(1))\\
-   &= \left(w_0 + \frac{\hat{\xi}_n}{\sqrt{n}}\right) + \underbrace{o_p(1) + o_p(\frac{1}{\sqrt{n}})}_{収束が遅い方が残りそう??}\\
-   &= \left(w_0 + \frac{\hat{\xi}_n}{\sqrt{n}}\right) + o_p(\frac{1}{\sqrt{n}}) \tag{3.10}
+   &= \left(w_0 + \frac{\hat{\xi}_n}{\sqrt{n}}\right) + \underbrace{o_p(1) + o_p(\frac{1}{\sqrt{n}})}_{収束が遅い方を残すイメージ}\\
+   &= \left(w_0 + \frac{\hat{\xi}_n}{\sqrt{n}}\right) + \underbrace{o_p(\frac{1}{\sqrt{n}})}_{何故この値になる??} \tag{3.10}
    \end{align*}
 
+(3.10)の導出で :math:`o_p(1)` と :math:`o_p(\frac{1}{\sqrt{n}})` で小さい方が残るのは何故?? :doc:`(issue001)</issues/issue001>`
 
-.. todo:: (3.10)の導出で :math:`o_p(1)` と :math:`o_p(\frac{1}{\sqrt{n}})` で小さい方が残るのは何故??
+(3.11), (3.12) の導出でも同じ疑問がある

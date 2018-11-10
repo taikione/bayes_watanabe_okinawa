@@ -28,8 +28,8 @@
   <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
     <link rel="index" title="索引" href="../genindex.html" />
     <link rel="search" title="検索" href="../search.html" />
-    <link rel="next" title="TODOリスト" href="../todo.html" />
-    <link rel="prev" title="section title" href="../sandbox01.html" /> 
+    <link rel="next" title="todo" href="../todo.html" />
+    <link rel="prev" title="ベイズ統計の理論と方法 輪読会@沖縄 サポートページにようこそ" href="../index.html" /> 
 
   
   <script src="../_static/js/modernizr.min.js"></script>
@@ -84,14 +84,12 @@
             
               <p class="caption"><span class="caption-text">Contents:</span></p>
 <ul class="current">
-<li class="toctree-l1"><a class="reference internal" href="../sample.html">章のタイトル</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../sandbox01.html">section title</a></li>
 <li class="toctree-l1 current"><a class="current reference internal" href="#">輪読会 第19回</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="#id2">補題 16</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id3">補題 16</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="../todo.html">TODOリスト</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../glossary.html">用語集</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../todo.html">todo</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../glossary.html">定義一覧</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../issues/issue001.html">ISSUE001</a></li>
 </ul>
 
@@ -159,9 +157,10 @@
             
   <div class="section" id="id1">
 <h1>輪読会 第19回<a class="headerlink" href="#id1" title="このヘッドラインへのパーマリンク">¶</a></h1>
+<p><a class="reference external" href="https://photos.google.com/share/AF1QipMEKO8vTwInzfRGYb87KNOiGU9cy8X7y7oSALIDbSAYR3N-3mJpSbucFrV115xm6Q?key=cWc5SlNTUWkyUHlDQmhXZXdQd0RzLW02TDFxNEJn">ホワイトボード写真</a></p>
 <p>3.3 スケーリング (p. 67)</p>
-<div class="section" id="id2">
-<h2>補題 16<a class="headerlink" href="#id2" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<div class="section" id="id3">
+<h2>補題 16<a class="headerlink" href="#id3" title="このヘッドラインへのパーマリンク">¶</a></h2>
 <p>(3.10)の導出について</p>
 <div class="math notranslate nohighlight">
 \begin{align*}
@@ -181,12 +180,10 @@
 <div class="math notranslate nohighlight">
 \begin{align*}
 \mathbb{E}_w &amp;= \left(w_0 + \frac{\hat{\xi}_n}{\sqrt{n}}\right)(1 + o_p(1))\\
-&amp;= \left(w_0 + \frac{\hat{\xi}_n}{\sqrt{n}}\right) + \underbrace{o_p(1) + o_p(\frac{1}{\sqrt{n}})}_{収束が遅い方が残りそう??}\\
-&amp;= \left(w_0 + \frac{\hat{\xi}_n}{\sqrt{n}}\right) + o_p(\frac{1}{\sqrt{n}}) \tag{3.10}
-\end{align*}</div><div class="admonition-todo admonition" id="index-0">
-<p class="first admonition-title">課題</p>
-<p class="last">(3.10)の導出で <span class="math notranslate nohighlight">\(o_p(1)\)</span> と <span class="math notranslate nohighlight">\(o_p(\frac{1}{\sqrt{n}})\)</span> で小さい方が残るのは何故??</p>
-</div>
+&amp;= \left(w_0 + \frac{\hat{\xi}_n}{\sqrt{n}}\right) + \underbrace{o_p(1) + o_p(\frac{1}{\sqrt{n}})}_{収束が遅い方を残すイメージ}\\
+&amp;= \left(w_0 + \frac{\hat{\xi}_n}{\sqrt{n}}\right) + \underbrace{o_p(\frac{1}{\sqrt{n}})}_{何故この値になる??} \tag{3.10}
+\end{align*}</div><p>(3.10)の導出で <span class="math notranslate nohighlight">\(o_p(1)\)</span> と <span class="math notranslate nohighlight">\(o_p(\frac{1}{\sqrt{n}})\)</span> で小さい方が残るのは何故?? <a class="reference internal" href="../issues/issue001.html"><span class="doc">(issue001)</span></a></p>
+<p>(3.11), (3.12) の導出でも同じ疑問がある</p>
 </div>
 </div>
 
@@ -198,10 +195,10 @@
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="../todo.html" class="btn btn-neutral float-right" title="TODOリスト" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="../todo.html" class="btn btn-neutral float-right" title="todo" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="../sandbox01.html" class="btn btn-neutral" title="section title" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="../index.html" class="btn btn-neutral" title="ベイズ統計の理論と方法 輪読会@沖縄 サポートページにようこそ" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   
