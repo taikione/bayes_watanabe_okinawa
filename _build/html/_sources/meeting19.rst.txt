@@ -1,0 +1,23 @@
+===========================================
+ベイズ統計の理論と方法 輪読会@沖縄 第19回
+===========================================
+
+以下の式
+
+.. math::
+
+   (a + b)^{2} &= a^{2} + 2 ab + b^{\pi} \cdot \mathbb{E}\left[\frac{1}{2}\right]
+   
+   (a + b)^{2} &= a^{2} + 2 ab + b^{\pi}
+
+   (a )^{2} &= a^{2} + 2 ab + b^{\pi} \cdot \mathbb{E}\left[\frac{1}{2}\right]
+
+から、導くことができる。
+
+.. figure:: /images/meeting19_01.jpg
+
+.. figure:: /images/meeting19_02.jpg
+
+.. figure:: /images/meeting19_03.jpg
+
+.. figure:: /images/meeting19_04.jpg
